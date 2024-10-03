@@ -4,18 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>class work</title>
+    <style>
+        Button {
+            text-align: center;
+            position: relative;
+            margin-left: 100px;
+            top: 20px;
+            background: linear-gradient(to right, red,green);
+            padding: 15px 30px 15px 30px;
+            border-radius: 0px 10px 0px 10px;
+            transition: 5s;
+        }
+        button a{
+            color: rgb(253, 255, 253);
+            text-shadow: 3px 3px 2px red;
+            font-size: 20px;
+            text-decoration: none;
+            font-weight: 900;
+            
+            
+        }
+        Button:hover{
+            background: linear-gradient(to right, green,red);
+            
+        }
+
+    </style>
     
 </head>
 <body>
     <div >
         <div style=" width: 30%; height: 500px; background: #c98282; float: left;" >
     
-                <a href="login.html" target="hi">Form</a><br><br><br>
-                <a href="in.html" target="hi" >Table</a>
+                <button><a href="login.html" target="hi">Form</a></button><br><br><br>
+                <button><a href="in.html" target="hi" >Table</a></button>
            
         </div>
         <div > 
-            <iframe   name="hi" style="width: 69%; height: 500px;"></iframe>
+            <iframe src="in.html"   name="hi" style="width: 69%; height: 500px;"></iframe>
           
         </div>
     </div>
